@@ -1,0 +1,23 @@
+footer{
+    color: white;
+    background-color: black;
+}
+.info-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.icon img{
+    height: 100px;
+    width: 100px;
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+}
+.email{
+    padding-top: 3%;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+}

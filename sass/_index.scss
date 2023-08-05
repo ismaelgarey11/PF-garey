@@ -1,0 +1,58 @@
+#main_principal {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1fr ;
+    grid-template-areas:
+     "articulos videos" 
+     "novedades novedades";
+  }
+  
+  /* Estilos para los artículos */
+  article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Estilos para los productos */
+  .producto {
+    text-align: center;
+    width: max-content;
+    padding: 10px; /* Agregamos padding para crear espacio */
+    transition: transform 0.3s ease; /* Agregamos una transición */
+  }
+  
+  .producto img:hover {
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgb(0, 0, 10);
+    transform: translateY(-5px); /* Agregamos una transformación en hover */
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Estilos para la sección de artículos */
+  .articulos {
+    grid-area: articulos;
+    display: flex;
+  }
+  
+  .articulos div {
+    text-align: center;
+  }
+  
+  /* Estilos para la sección de videos */
+  .videos {
+    grid-area: videos;
+  } 
+  
+  /* Estilos para la sección de novedades */
+  .novedades {
+    background-color: aliceblue;
+    grid-area: novedades;
+  }

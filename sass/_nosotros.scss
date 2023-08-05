@@ -1,0 +1,22 @@
+.container-nosotros{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+  }
+  .text-redes{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .nos{
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+    margin-top: 50px;
+  }
+  .img-grupal img{
+border-radius: 20px;
+  }
+  .img-grupal img{
+    height: 50vh;
+    width: 50vh;
+  }

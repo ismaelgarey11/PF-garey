@@ -1,0 +1,15 @@
+.manga-product{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.mangas-t{
+    font-size: 2rem;
+    width: 70vh;
+    margin: auto;
+    background-color: blueviolet;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
