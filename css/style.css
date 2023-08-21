@@ -370,6 +370,10 @@ footer {
     align-items: center;
     justify-content: center;
   }
+  .main_nosotros{
+    display: grid;
+    grid-template-columns: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
