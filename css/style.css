@@ -370,7 +370,7 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  .main_nosotros{
+  .container_nosotros{
   display: flex;
   flex-direction: column;
   background-color: #4169e1;
