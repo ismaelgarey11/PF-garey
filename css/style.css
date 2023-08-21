@@ -288,6 +288,9 @@ footer {
   .container {
     padding: 10px;
   }
+  iframe{
+    margin: auto;
+  }
 }
 @media screen and (max-width: 480px) {
   /* Estilos header */
@@ -380,6 +383,9 @@ footer {
   }
   .novedades{
     max-width: 480px;
+  }
+  iframe{
+    max-width: max-content;
   }
 }
 
