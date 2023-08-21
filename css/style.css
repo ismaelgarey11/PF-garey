@@ -375,6 +375,12 @@ footer {
   flex-direction: column;
   background-color: #4169e1;
   }
+  .img-grupal{
+    margin: auto;
+  }
+  .novedades{
+    max-width: 480px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
